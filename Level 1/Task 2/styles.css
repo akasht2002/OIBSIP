@@ -1,0 +1,209 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #85a9d8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    /* Add background image for the whole body */
+    background-image: url('C:/Users/Akash/Dropbox/PC/Desktop/task 2/background.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    color: #333; /* Set text color for better readability */
+  }
+  
+  header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #333;
+    color: #65aac5;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+  }
+  /* Example styles for the header photo */
+.header-photo {
+    max-width: 20%;
+    height: 20%;
+    border-radius:10%; /* Adds rounded corners to the image */
+    /* Add more styles as needed */
+  }
+  .header-photo {
+    float: left;
+    margin-right: 20PX; /* Add some margin for spacing */
+    border-radius: 50%; /* Adds rounded corners to the image */
+    /* Add more styles as needed */
+  }
+  /* Styles for the resume button */
+.resume-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: hsl(0, 0%, 94%);
+    border-radius: 5px;
+    border: none;
+    margin-right: 20px;
+    /* Add more styles as needed */
+  }
+  
+  .resume-button:hover {
+    background-color: #0056b3; /* Change color on hover */
+  }
+  
+  
+  /* Other styles for the header content */
+  /* ... */
+  
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+
+  /* Existing styles... */
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: #222;
+    color: rgb(223, 228, 230);
+  }
+  /* Styles for the skills section */
+#skills {
+    padding: 20px;
+  }
+  
+  #skills h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  #skills ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #skills li {
+    margin-bottom: 8px;
+  }
+  
+  /* Styles for the certificates section */
+#certificates {
+    padding: 20px;
+  }
+  
+  #certificates h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  #certificates ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #certificates li {
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for PDF links */
+  #certificates a {
+    display: block;
+    margin-top: 8px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  #certificates a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Styles for certificate images */
+  #certificates img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border: 1px solid #e6edee;
+    /* Add more styles as needed */
+  }
+  
+  /* Add more specific dark mode styles as needed */
+ 
+  /* Existing styles... */
+
+/* Add background images */
+#about.with-background {
+    background-image: url('path/to/about-background.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    color: hsl(210, 19%, 89%); /* Set text color for better readability */
+    padding: 50px; /* Adjust padding as needed */
+  }
+  
+  #projects.with-background {
+    background-image: url('path/to/projects-background.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    color: hsl(200, 50%, 98%); /* Set text color for better readability */
+    padding: 50px; /* Adjust padding as needed */
+  }
+  /* Styles for project links */
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+    border: 1px solid hsl(215, 23%, 90%);
+    padding: 6px 12px;
+    border-radius: 5px;
+  }
+  
+  .project a:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  
+  /* Add more specific styles as needed */
+/* Existing styles... */
+
+
+  
+  /* Add more specific styles as needed */
+    /* Styles for the contact links */
+#contact a {
+    text-decoration: none;
+    color: #18c521;
+    /* Add more styles as needed */
+  }
+  
+  #contact a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Add more specific styles as needed */
+  
